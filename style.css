@@ -14,17 +14,26 @@ body {
 	height: 100vh;
 }
 
+h1	{
+	font-size: 45px;
+}
 
 h2 {
-	color: rgb(214, 214, 214);
+	font-size: 45px;
 }
 
 h3	{
 	font-size: 45px;
 }
 
+p {
+	font-size: 24px;
+}
+
 .header {
-	padding-top: 8%;
+	padding-top: 7%;
+	margin: 0px;
+	
 }
 
 .gameArea {
@@ -51,14 +60,15 @@ h3	{
 }
 
 button {
-	font-size: 28px;
+	font-size: 32px;
 	border: none;
 	cursor: pointer;
-	border-radius: 12%;
+	border-radius: 10%;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 30px;
 	padding-right: 30px;
 	margin: 0 25px;
 	background-color: rgb(59, 0, 10);
+	font-weight: 300;
 }

@@ -8,7 +8,7 @@ const whosTurn = document.getElementById("whosTurn")
 
 let player1Total = 0;
 let player2Total = 0;
-let currentTurn = 2;
+let currentTurn = 1;
 
 player1Roll.addEventListener("click", () => {
 	if (currentTurn == 1) {
@@ -17,7 +17,7 @@ player1Roll.addEventListener("click", () => {
 		player1Dice.src = `./images/d${currentRoll}.png`;
 		player1Total += currentRoll;
 		player1Score.textContent = player1Total;
-		if (player1Total >= 20) {
+		if (player1Total >= 40) {
 			winPlayer1();
 		} else {
 			if (currentRoll == 1) {
@@ -34,7 +34,7 @@ player2Roll.addEventListener("click", () => {
 		player2Dice.src = `./images/d${currentRoll}.png`;
 		player2Total += currentRoll;
 		player2Score.textContent = player2Total;
-		if (player2Total >= 20) {
+		if (player2Total >= 40) {
 			winPlayer2();
 		} else {
 			if (currentRoll == 1) {

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	<title>DiceGame</title>
+</head>
+<body class="game">
+	<div class="header">
+		<button id="reset">I want to play again!</button>
+		<br><br>
+		<h2 id="whosTurn"></h2>
+		<br><br>
+		<h1>Dice Game</h1>
+		<br><br>
+		<p>The first person to roll to 20 points wins. Rolling a 1 results in a loss.</p>
+	</div>
+
+	<div class="gameArea">
+		<div class="areaPlayer1">
+			<h3 >Player 1</h3>
+			<br><br>
+			<h2 id="player1Score"></h2>
+			<div id="diceArea">
+				<img id="player1Dice">
+			</div>
+			<div class="buttons">
+				<button id="player1Roll">Roll</button>
+				<button id="passPlayer1">Pass</button>
+			</div>
+		</div>
+		<div class="areaPlayer2">
+			<h3>Player 2</h3>
+			<br><br>
+			<h2 id="player2Score"></h2>
+			
+			<div id="diceArea">
+				<img id="player2Dice">
+			</div>
+			<div class="buttons">
+				<button id="player2Roll">Roll</button>
+				<button id="passPlayer2">Pass</button>
+			</div>
+		</div>
+	</div>	
+    <script src="app.js"></script>
+</body>
+
+
+
+
+
